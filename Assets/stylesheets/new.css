@@ -24,6 +24,7 @@ a:focus, a:hover,
 .navbar-dark .navbar-brand:hover {
     color:rgb(146, 7, 7)
 }
+
 .navbar-dark .nav-link.active:hover{
     color: #026ae9;
 }
@@ -83,6 +84,12 @@ header {
 article img {
     margin-bottom: 1rem;
 }
+body.bg-band {
+    background-image: url("../images/CB Splash Hero Image Slide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /* end layout */
 
@@ -120,4 +127,32 @@ article img {
     width: auto;
     max-height: 447px;
     margin: 0 auto;
+}
+
+.accordion-item {
+    color: white;
+    background-color: black;
+}
+.accordion-header {
+    color: blue;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: left;
+    width: 100%;
+    padding: 2
+rem
+ 2.25
+rem
+;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
 }

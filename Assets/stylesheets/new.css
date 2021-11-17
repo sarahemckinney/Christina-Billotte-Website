@@ -88,6 +88,8 @@ body.bg-band {
     background-image: url("../images/CB Splash Hero Image Slide.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 60% 50%;
+    min-height: 100vh;
 }
 .bg-dark-semi-transparent {
     background-color: rgba(0,0,0,.5);
